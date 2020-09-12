@@ -3,30 +3,38 @@ import utils
 import sys
 
 def main():
+    pad_length = 25
     card_types_path = sys.argv[1]
     card_types = load_card_types(card_types_path)
-    print(str(card_types))
     card_number = input("Please enter a credit card number:")
-    print("Card number: " + card_number)
-    name = get_card_type(card_types, card_number)
-    print("Card type: " + str(name))
+    if (not utils.is_valid(card_number)):
+        print(pad_spaces_to_length("Credit card number: ",pad_length) + "Invalid")
+        print(pad_spaces_to_length("Credit card type: ",pad_length) + "Invalid")
+        print(pad_spaces_to_length("Luhn Verification: ",pad_length) + "N/A")
+    else:
+        print(pad_spaces_to_length("Credit card number: ",pad_length) + card_number)
+        name = get_card_type(card_types, card_number)
+        print(pad_spaces_to_length("Credit card type: ",pad_length) + str(name))
+        print(pad_spaces_to_length("Luhn Verification: ",pad_length) + utils.luhn_verified(card_number))
+
+def pad_spaces_to_length(string, length):
+    string_length = len(string)
+    for number in range(len(string),length):
+        string += " "
+    return string
 
 def get_card_type(card_types, card_number):
     for type in card_types:
         name = type[0]
-        print(name)
         lengths = type[1]
         for length in lengths:
-            print(length)
             if length == len(card_number):
                 prefixes = type[2]
-                print("PREFIXES")
                 for prefix in prefixes:
                     prefix_length = len(str(prefix))
-                    print(card_number[0:prefix_length])
                     if int(card_number[0:prefix_length]) == int(prefix):
-                        print(name)
                         return name
+    return "Invalid"
 
 
 def load_card_types(filepath):

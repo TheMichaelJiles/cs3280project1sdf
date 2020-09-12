@@ -9,12 +9,10 @@ def luhn_verified(credit_card_number):
         return 'N/A'
 
     number_list = [int(i) for i in str(credit_card_number)]
-    print(number_list)
     last_digit = number_list.pop()
 
     number_list.reverse()
 
-    print(number_list)
     for i in range(len(number_list)):
         if (((i % 2) == 0)):
             number = number_list[i]
@@ -27,8 +25,6 @@ def luhn_verified(credit_card_number):
     for number in number_list:
         sum = sum + number
 
-    print(number_list)
-    print(sum)
     if (sum % 10) != 10 - last_digit:
         return 'Fake'
 
