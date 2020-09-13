@@ -37,4 +37,4 @@ def is_valid(sequence):
     and false otherwise.
     '''
     regex = '(\d{13}\d{0,6})|(\d{4}(\-\d{4}){3})|(\d{4}(\s\d{4}){3})'
-    return re.match(regex, sequence)
+    return re.match(regex, str(sequence))

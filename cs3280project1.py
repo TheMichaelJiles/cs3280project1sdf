@@ -65,4 +65,5 @@ def load_card_types(filepath):
         card_types.append(card_tuple)
     return card_types
 
-main()
+if __name__ == ‘__main__’:
+    main()
