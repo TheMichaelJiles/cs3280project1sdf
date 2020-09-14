@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="utils_tests.py" name="utils_tests.TestLuhnVerified-20200913213131" skipped="0" tests="3" time="0.004" timestamp="2020-09-13T21:31:32">
+	<testcase classname="utils_tests.TestLuhnVerified" name="testAuthenticCardNumber" time="0.001" timestamp="2020-09-13T21:31:32"/>
+	<testcase classname="utils_tests.TestLuhnVerified" name="testFakeCardNumber" time="0.001" timestamp="2020-09-13T21:31:32"/>
+	<testcase classname="utils_tests.TestLuhnVerified" name="testInvalidCardNumber" time="0.001" timestamp="2020-09-13T21:31:32"/>
+</testsuite>
