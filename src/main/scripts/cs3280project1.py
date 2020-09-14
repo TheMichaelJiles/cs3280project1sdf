@@ -23,6 +23,8 @@ def main():
         print(pad_spaces_to_length("Credit card type: ", pad_length) + "Invalid")
         print(pad_spaces_to_length("Luhn Verification: ", pad_length) + "N/A")
     else:
+        card_number = card_number.replace(' ', '')
+        card_number = card_number.replace('-', '')
         print(pad_spaces_to_length("Credit card number: ", pad_length) + card_number)
         name = get_card_type(card_types, card_number)
         print(pad_spaces_to_length("Credit card type: ", pad_length) + str(name))
