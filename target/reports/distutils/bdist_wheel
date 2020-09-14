@@ -1,5 +1,4 @@
 running clean
-'build/temp.linux-x86_64-3.6' does not exist -- can't clean it
 'build/lib' does not exist -- can't clean it
 'build/bdist.linux-x86_64' does not exist -- can't clean it
 'build/scripts-3.6' does not exist -- can't clean it
@@ -25,16 +24,9 @@ writing SystemsProgrammingProject1.egg-info/PKG-INFO
 writing dependency_links to SystemsProgrammingProject1.egg-info/dependency_links.txt
 writing namespace_packages to SystemsProgrammingProject1.egg-info/namespace_packages.txt
 writing top-level names to SystemsProgrammingProject1.egg-info/top_level.txt
-'license_file' option was not specified
 reading manifest file 'SystemsProgrammingProject1.egg-info/SOURCES.txt'
 writing manifest file 'SystemsProgrammingProject1.egg-info/SOURCES.txt'
 Copying SystemsProgrammingProject1.egg-info to build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0-py3.6.egg-info
-Copying namespace_packages.txt to build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0-py3.6.egg-info/namespace_packages.txt
-Copying PKG-INFO to build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0-py3.6.egg-info/PKG-INFO
-Copying dependency_links.txt to build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0-py3.6.egg-info/dependency_links.txt
-Copying top_level.txt to build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0-py3.6.egg-info/top_level.txt
-Copying SOURCES.txt to build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0-py3.6.egg-info/SOURCES.txt
-Copying zip-safe to build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0-py3.6.egg-info/zip-safe
 running install_scripts
 creating build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0.data
 creating build/bdist.linux-x86_64/wheel/SystemsProgrammingProject1-1.0.dev0.data/scripts

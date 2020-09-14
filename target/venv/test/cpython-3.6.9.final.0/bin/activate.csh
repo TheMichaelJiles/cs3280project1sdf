@@ -10,7 +10,7 @@ alias deactivate 'test $?_OLD_VIRTUAL_PATH != 0 && setenv PATH "$_OLD_VIRTUAL_PA
 # Unset irrelevant variables.
 deactivate nondestructive
 
-setenv VIRTUAL_ENV "/home/sjiles1/Documents/SystemsProgrammingProject1/target/venv/test/cpython-3.6.9.final.0"
+setenv VIRTUAL_ENV "/home/sjiles1/Documents/cs3280project1/target/venv/test/cpython-3.6.9.final.0"
 
 set _OLD_VIRTUAL_PATH="$PATH:q"
 setenv PATH "$VIRTUAL_ENV:q/bin:$PATH:q"

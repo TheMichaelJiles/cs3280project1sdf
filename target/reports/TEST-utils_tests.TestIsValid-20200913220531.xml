@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite errors="0" failures="0" file="utils_tests.py" name="utils_tests.TestIsValid-20200913220531" skipped="0" tests="3" time="0.004" timestamp="2020-09-13T22:05:31">
+	<testcase classname="utils_tests.TestIsValid" name="testInvalidCardNumber" time="0.002" timestamp="2020-09-13T22:05:31"/>
+	<testcase classname="utils_tests.TestIsValid" name="testValidCardNumber" time="0.001" timestamp="2020-09-13T22:05:31"/>
+	<testcase classname="utils_tests.TestIsValid" name="testValidSeparatedNumber" time="0.001" timestamp="2020-09-13T22:05:31"/>
+</testsuite>

@@ -1,4 +1,4 @@
-#!/home/sjiles1/Documents/SystemsProgrammingProject1/.pybuilder/plugins/cpython-3.6.9.final.0/bin/python
+#!/home/sjiles1/Documents/cs3280project1/.pybuilder/plugins/cpython-3.6.9.final.0/bin/python
 
 import sys
 import getopt

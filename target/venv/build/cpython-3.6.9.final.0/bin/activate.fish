@@ -57,7 +57,7 @@ end
 # Unset irrelevant variables.
 deactivate nondestructive
 
-set -gx VIRTUAL_ENV "/home/sjiles1/Documents/SystemsProgrammingProject1/target/venv/build/cpython-3.6.9.final.0"
+set -gx VIRTUAL_ENV "/home/sjiles1/Documents/cs3280project1/target/venv/build/cpython-3.6.9.final.0"
 
 # https://github.com/fish-shell/fish-shell/issues/436 altered PATH handling
 if test (echo $FISH_VERSION | tr "." "\n")[1] -lt 3

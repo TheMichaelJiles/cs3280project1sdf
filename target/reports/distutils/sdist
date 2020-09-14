@@ -1,5 +1,4 @@
 running clean
-'build/temp.linux-x86_64-3.6' does not exist -- can't clean it
 'build/lib' does not exist -- can't clean it
 'build/bdist.linux-x86_64' does not exist -- can't clean it
 'build/scripts-3.6' does not exist -- can't clean it
@@ -11,7 +10,6 @@ writing dependency_links to SystemsProgrammingProject1.egg-info/dependency_links
 writing namespace_packages to SystemsProgrammingProject1.egg-info/namespace_packages.txt
 writing top-level names to SystemsProgrammingProject1.egg-info/top_level.txt
 writing manifest file 'SystemsProgrammingProject1.egg-info/SOURCES.txt'
-'license_file' option was not specified
 reading manifest file 'SystemsProgrammingProject1.egg-info/SOURCES.txt'
 writing manifest file 'SystemsProgrammingProject1.egg-info/SOURCES.txt'
 warning: sdist: standard file not found: should have one of README, README.rst, README.txt, README.md
@@ -34,11 +32,6 @@ copying SystemsProgrammingProject1.egg-info/namespace_packages.txt -> SystemsPro
 copying SystemsProgrammingProject1.egg-info/top_level.txt -> SystemsProgrammingProject1-1.0.dev0/SystemsProgrammingProject1.egg-info
 copying SystemsProgrammingProject1.egg-info/zip-safe -> SystemsProgrammingProject1-1.0.dev0/SystemsProgrammingProject1.egg-info
 copying scripts/cs3280project1.py -> SystemsProgrammingProject1-1.0.dev0/scripts
-not copying SystemsProgrammingProject1.egg-info/SOURCES.txt (output up-to-date)
-Reading configuration from SystemsProgrammingProject1-1.0.dev0/setup.cfg
-Adding new section [egg_info] to SystemsProgrammingProject1-1.0.dev0/setup.cfg
-Setting egg_info.tag_build to '' in SystemsProgrammingProject1-1.0.dev0/setup.cfg
-Setting egg_info.tag_date to 0 in SystemsProgrammingProject1-1.0.dev0/setup.cfg
 Writing SystemsProgrammingProject1-1.0.dev0/setup.cfg
 creating dist
 Creating tar archive

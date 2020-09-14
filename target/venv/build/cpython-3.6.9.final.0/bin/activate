@@ -46,7 +46,7 @@ deactivate () {
 # unset irrelevant variables
 deactivate nondestructive
 
-VIRTUAL_ENV="/home/sjiles1/Documents/SystemsProgrammingProject1/target/venv/build/cpython-3.6.9.final.0"
+VIRTUAL_ENV="/home/sjiles1/Documents/cs3280project1/target/venv/build/cpython-3.6.9.final.0"
 export VIRTUAL_ENV
 
 _OLD_VIRTUAL_PATH="$PATH"
