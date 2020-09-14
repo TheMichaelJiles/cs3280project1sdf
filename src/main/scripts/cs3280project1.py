@@ -6,7 +6,9 @@ author: Michael Jiles
 Version: 1.0
 '''
 import sys
-sys.path.insert(0, '/home/sjiles1/Documents/SystemsProgrammingProject1')
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath('../..')))
+'''sys.path.insert(0, 'home/sjiles1/Documents/cs3280project1')'''
 from src.main.python import utils
 
 def main():
